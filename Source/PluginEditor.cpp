@@ -219,11 +219,11 @@ void SakuraHellAudioProcessorEditor::drawCharacter(Graphics& g, float cx, float 
     g.setColour(Colour(0xff111111));
     g.fillRoundedRectangle(cx - 27, floorY - 162, 54, 68, 8);
     g.setColour(Colour(0xff9fc3df));
-    g.fillRect(cx - 6, floorY - 162, 12, 24);
+    g.fillRect(cx - 6.f, floorY - 162.f, 12.f, 24.f);
     g.setColour(Colour(0xff1d2f40));
     for (int i = 0; i < 5; ++i) g.fillRect(cx - 6, floorY - 160 + i * 5.f, 12.f, 1.5f);
     g.setColour(Colour(0xffb02a4a));
-    g.fillRect(cx - 24, floorY - 100, 48, 7);
+    g.fillRect(cx - 24.f, floorY - 100.f, 48.f, 7.f);
 
     // head with mask (can detach)
     {
